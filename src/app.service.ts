@@ -18,6 +18,11 @@ export class AppService {
       border: 'none',
       height: '139mm',
       width: '400mm',
+      childProcessOptions: {
+        env: {
+          OPENSSL_CONF: '/dev/null',
+        },
+      },
     };
 
     const tempFilePath = path.join(
