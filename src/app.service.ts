@@ -16,7 +16,7 @@ export class AppService {
     const options = {
       orientation: 'landscape',
       border: 'none',
-      height: '139mm',
+      height: '130mm',
       width: '400mm',
       childProcessOptions: {
         env: {
